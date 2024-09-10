@@ -154,6 +154,7 @@ p{
   }
   .close-btn {
     font-size: 80px;
+    transform: translate(0, -48px);
   }
 }
 
