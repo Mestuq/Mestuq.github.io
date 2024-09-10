@@ -96,7 +96,7 @@ p{
   position: absolute;
   top: 10px;
   right: 20px;
-  font-size: 24px;
+  font-size: 48px;
   cursor: pointer;
 }
 
@@ -151,6 +151,9 @@ p{
   }
   .modal-content {
     width: 100vw;
+  }
+  .close-btn {
+    font-size: 80px;
   }
 }
 
