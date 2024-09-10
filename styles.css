@@ -145,6 +145,15 @@ p{
   }
 }
 
+@media (max-width: 992px) {
+  .p-5 {
+    padding: 10px!important;
+  }
+  .modal-content {
+    width: 100vw;
+  }
+}
+
 .app-list img {
   width: 250px;
   height: 200px;
