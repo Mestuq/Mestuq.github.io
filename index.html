@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="src/icon.png">
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <div class="container-fluid main-container">
+        <div class="row">
+            <div class="col-lg-6 left-column">
+                <section class="hero-section p-5">
+                    <div class="container">
+                        <h1 class="display-4">Hi, I'm Damian</h1>
+                        <p class="lead">A passionate programmer eager to bring your vision to life.</p>
+                    </div>
+                </section>
+
+                <section class="about-me-section p-5">
+                    <div class="container">
+                        <h2>About Me</h2>
+                        <p>I am a passionate and self-taught programmer who enjoys creating video games in my spare time. 
+                            I have learned various programming languages and tools through online courses and personal projects. 
+                            I am eager to apply my skills and knowledge in a professional setting and to grow as a programmer.</p>
+                    </div>
+                </section>
+
+                <div class="mb-4 button-section text-center">
+                    <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('home.html')">Personal projects</button>
+                    <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('gamejams.html')">Gamejams</button>
+                    <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('contact.html')">Contact</button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 d-flex flex-column justify-content-around right-column">
+                <div class="content-container">
+                    <div id="main-content" class="app-list">
+                        <!-- Content will be loaded here via AJAX -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="project-detail"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
