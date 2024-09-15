@@ -5,12 +5,13 @@ p{
   font-size: 20px;
   font-weight: 300;
   font-family: "Roboto Slab", serif;
-  margin: 10px;
 }
 
-.modal-content h3
-{
+.modal-content h3 {
   margin: 20px;
+}
+.modal-content p {
+  margin: 10px;
 }
 
 .hero-section {
@@ -147,6 +148,10 @@ p{
   .contact-section {
     margin-top: calc((100vh - 500px)/2.0);
   }
+  .app-list img {
+    height: 200px;
+    object-fit: cover;
+  }
 }
 .modal-content img
 {
@@ -181,11 +186,10 @@ p{
   .button-section button {
     margin: 10px;
   }
-}
-
-.app-list img {
-  height: 200px;
-  object-fit: cover;
+  .app-list img {
+    width: 80%;
+    object-fit: cover;
+  }
 }
 
 body {
