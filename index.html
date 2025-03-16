@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="src/icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,24 +18,25 @@
     <div class="container-fluid main-container">
         <div class="row">
             <div class="col-lg-6 left-column">
+                <div class="top-left-triangle"></div>
+                <div class="bottom-right-triangle"></div>
+                
                 <section class="hero-section p-5">
                     <div class="container">
-                        <h1 class="display-4">Hi, I'm Damian</h1>
-                        <p class="lead">A passionate programmer eager to bring your vision to life.</p>
+                        <h1 class="display-4">Hi, I'm <span>Damian</span></h1>
+                        <p class="lead">A passionate programmer eager to bring your <span class="rainbow-text">vision</span> to life.</p>
                     </div>
                 </section>
 
                 <section class="about-me-section p-5">
                     <div class="container">
                         <h2>About Me</h2>
-                        <p>I am a passionate and self-taught programmer who enjoys creating video games in my spare time. 
-                            I have learned various programming languages and tools through online courses and personal projects. 
-                            I am eager to apply my skills and knowledge in a professional setting and to grow as a programmer.</p>
+                        <p>I’m a self-taught game developer with a passion for building unique experiences. I thrive in game jams—both as a participant and organizer—where I push creative limits. I love blending AI and LLMs into my projects. Always learning, always creating</p>
                     </div>
                 </section>
 
                 <div class="mb-4 button-section text-center">
-                    <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('home.html')">My projects</button>
+                    <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('home.html')">Personal projects</button>
                     <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('gamejams.html')">Gamejams</button>
                     <button class="btn btn-secondary mr-2 mb-2" onclick="loadContent('contact.html')">Contact</button>
                 </div>
