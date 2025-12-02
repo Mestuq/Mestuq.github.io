@@ -432,6 +432,10 @@ p {
   .contact-section {
     margin-top: 2rem;
   }
+  
+  .about-me-section p {
+    font-size: min(1.2vw, 1.1rem);
+  }
 }
 
 @media (max-width: 991px) {
